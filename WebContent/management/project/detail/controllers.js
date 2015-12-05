@@ -68,6 +68,7 @@ function projectFormController($scope, $state, projectService, projectTypes) {
 		angular.copy($scope.data, data);
 		data.deadline = data.deadline.valueOf();
 		data.value = parseInt(data.value);
+		data.files = $scope.data.files;
 		$scope.service.createProject(data);
 	}
 
