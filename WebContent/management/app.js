@@ -12,10 +12,10 @@ angular.module("app").config([ "$stateProvider", function($stateProvider) {
 		url : "/project",
 		views : {
 			"detail-view" : {
-				templateUrl : "project-detail"
+				templateUrl : "management/project-detail"
 			},
 			"master-view" : {
-				templateUrl : "project-function",
+				templateUrl : "management/project-function",
 				controller : "projectFunctionController"
 			}
 		}
@@ -23,10 +23,10 @@ angular.module("app").config([ "$stateProvider", function($stateProvider) {
 		url : "/client",
 		views : {
 			"detail-view" : {
-				templateUrl : "client-detail"
+				templateUrl : "management/client-detail"
 			},
 			"master-view" : {
-				templateUrl : "client-function",
+				templateUrl : "management/client-function",
 				controller : "clientFunctionController"
 			}
 		}
@@ -34,7 +34,7 @@ angular.module("app").config([ "$stateProvider", function($stateProvider) {
 		url : "/form",
 		views : {
 			"detail-content" : {
-				templateUrl : "project-detail-form",
+				templateUrl : "management/project-detail-form",
 				controller : "projectFormController"
 			}
 		}
@@ -42,7 +42,7 @@ angular.module("app").config([ "$stateProvider", function($stateProvider) {
 		url : "/form",
 		views : {
 			"detail-content" : {
-				templateUrl : "client-detail-form",
+				templateUrl : "management/client-detail-form",
 				controller : "clientFormController"
 			}
 		}
@@ -50,7 +50,7 @@ angular.module("app").config([ "$stateProvider", function($stateProvider) {
 		url : "/content/:id",
 		views : {
 			"detail-content" : {
-				templateUrl : "project-detail-content",
+				templateUrl : "management/project-detail-content",
 				controller : "projectContentController"
 			}
 		}
@@ -58,7 +58,7 @@ angular.module("app").config([ "$stateProvider", function($stateProvider) {
 		url : "/data",
 		views : {
 			"content" : {
-				templateUrl : "project-detail-content-data",
+				templateUrl : "management/project-detail-content-data",
 				controller : "projectDataController"
 			}
 		}
@@ -66,7 +66,7 @@ angular.module("app").config([ "$stateProvider", function($stateProvider) {
 		url : "/progresses",
 		views : {
 			"content" : {
-				templateUrl : "project-detail-content-progresses",
+				templateUrl : "management/project-detail-content-progresses",
 				controller : "projectProgressesController"
 			}
 		}
@@ -74,15 +74,15 @@ angular.module("app").config([ "$stateProvider", function($stateProvider) {
 		url : "/messages",
 		views : {
 			"content" : {
-				templateUrl : "project-detail-content-messages",
-				controller: "projectMessagesController"
+				templateUrl : "management/project-detail-content-messages",
+				controller : "projectMessagesController"
 			}
 		}
 	}).state("project.content.progressForm", {
 		url : "/form",
 		views : {
 			"content" : {
-				templateUrl : "project-detail-content-progressForm",
+				templateUrl : "management/project-detail-content-progressForm",
 				controller : "projectProgressFormController"
 			}
 		}
@@ -90,7 +90,7 @@ angular.module("app").config([ "$stateProvider", function($stateProvider) {
 		url : "/progress/:progressId",
 		views : {
 			"content" : {
-				templateUrl : "project-detail-content-progress",
+				templateUrl : "management/project-detail-content-progress",
 				controller : "projectProgressController"
 			}
 		}
@@ -98,7 +98,7 @@ angular.module("app").config([ "$stateProvider", function($stateProvider) {
 		url : "/detail/:id",
 		views : {
 			"detail-content" : {
-				templateUrl : "client-detail-data",
+				templateUrl : "management/client-detail-data",
 				controller : "clientDataController"
 			}
 		}

@@ -70,14 +70,14 @@
 	<script src="/assets/js/datetimepicker.js"></script>
 	<script src="/assets/js/slider.js"></script>
 
-	<script src="app.js"></script>
-	<script src="filters.js"></script>
-	<script src="services.js"></script>
-	<script src="controllers.js"></script>
-	<script src="project/controllers.js"></script>
-	<script src="project/detail/controllers.js"></script>
-	<script src="client/controllers.js"></script>
-	<script src="client/detail/controllers.js"></script>
-	<script src="project/detail/content/controllers.js"></script>
+	<script src="management/app.js"></script>
+	<script src="management/filters.js"></script>
+	<script src="management/services.js"></script>
+	<script src="management/controllers.js"></script>
+	<script src="management/project/controllers.js"></script>
+	<script src="management/project/detail/controllers.js"></script>
+	<script src="management/client/controllers.js"></script>
+	<script src="management/client/detail/controllers.js"></script>
+	<script src="management/project/detail/content/controllers.js"></script>
 </body>
 </html>
